@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ImageSliderWidget</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:400,300,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    
+        <div class="slider-tasiyici"> 
+            <div class="resim-tasiyici">
+                <li id="im1" style="display:block"><img src="img/01.jpg"/></li>
+                <li id="im2" style="display:none"><img src="img/02.jpg"/></li>
+                <li id="im3" style="display:none"><img src="img/03.jpg"/></li>
+                <li id="im4" style="display:none"><img src="img/04.jpg"/></li>
+            </div>
+            <div class="buton">
+                <ul>
+                    <li onclick="changeSlide('1')" id="b1" class="aktif">1</li>
+                    <li onclick="changeSlide('2')" id="b2" >2</li>
+                    <li onclick="changeSlide('3')" id="b3" >3</li>
+                    <li onclick="changeSlide('4')" id="b4" >4</li>
+                    <li onclick="changeSlide('next')" class="r">></li>
+                    <li onclick="changeSlide('prev')" class="r"><</li>
+                </ul>
+            <div class="clear"></div>
+            </div>
+        </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
